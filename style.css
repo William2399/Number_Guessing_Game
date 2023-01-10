@@ -1,0 +1,38 @@
+body {
+    width: 50%;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 22px;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 9px;
+    padding: 20px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerGuess {
+    width: 180px;
+}
+
+.submit_button {
+    width: 85px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
